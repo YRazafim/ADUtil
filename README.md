@@ -12,17 +12,16 @@ Implemented techniques are well-known. I tried to include references to the orig
 
 # Table of contents
 
-- Installation
-- Usage
-    - ADUtil
-    - Kerberos
-    - NTLM
-    - LDAP
-    - RPC
-    - SMB
-    - MSSQL
-    - HTTP
-    - RDP
+- [Installation](#installation)
+- [Usage](#usage)
+    - [KERBEROS](Utils/KERBEROS)
+    - [NTLM](Utils/NTLM)
+    - [LDAP](Utils/LDAP)
+    - [RPC](Utils/RPC)
+    - [SMB](Utils/SMB)
+    - [MSSQL](Utils/MSSQL)
+    - [HTTP](Utils/HTTP)
+    - [RDP](Utils/RDP)
 
 # Installation
 
@@ -30,7 +29,7 @@ Implemented techniques are well-known. I tried to include references to the orig
 ./install.sh
 ```
 
-# ADUtil
+# Usage
 
 ```
 ADUtil -h
