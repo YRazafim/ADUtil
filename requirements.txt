@@ -1,0 +1,17 @@
+requests
+pytz
+asn1crypto
+cryptography
+oscrypto @ https://github.com/wbond/oscrypto/archive/d5f3437ed24257895ae1edd9e503cfb352e635a8.zip
+pycryptodome
+pyasn1
+impacket
+ldap3 @ git+https://github.com/ThePirateWhoSmellsOfSunflowers/ldap3@e4001e3687b9e9de0da619ddbf06658835b7ee1d
+pyOpenSSL==24.0.0
+chardet
+dnspython
+requests-ntlm
+requests-toolbelt
+pandas
+tabulate
+pyasn1_modules
