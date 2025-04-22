@@ -11,6 +11,7 @@ from ldap3.core.exceptions import LDAPAttributeError
 from ldap3.protocol.microsoft import security_descriptor_control
 
 # ADDITIONAL PROTOCOLS = RPC/SMB/Kerberos and structures
+from Utils.RPC import RPCUtil
 from Utils.SMB import SMBUtil
 from Utils.KERBEROS import KerberosUtil
 from impacket.structure import Structure
@@ -22,8 +23,6 @@ from io import StringIO
 from asn1crypto import x509
 from struct import pack
 from enum import Enum
-
-from Utils.RPC import RPCUtil
 try: # When OpenSSL have MD4 disabled
 	ctypes.CDLL("libssl.so").OSSL_PROVIDER_load(None, b"legacy")
 	ctypes.CDLL("libssl.so").OSSL_PROVIDER_load(None, b"default")
